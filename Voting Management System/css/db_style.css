@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar-container{
+    width: 25%;
+    height: 100vh;
+    background-color: rgb(68, 68, 68);
+}
+
+.body-container{
+    width: 100%;
+    background-color: rgb(205, 207, 209);
+}
+
+.logo-con {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: rgb(217, 39, 34);
+}
+
+.logo-con img{
+    width: 100px;
+}
+
+.sidebar-menu-list{
+    width: 100%;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+.sidebar-menu-list a{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    display: table; 
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+}
+
+.sidebar-menu-list a:hover{
+    width: 100%;
+    background-color:rgba(217, 39, 34,0.8);
+}
+
+.sidebar-menu-list i{
+    margin-left: 10px;
+    padding-right: 12px;
+}
+
+.body-container{
+    width: 100%;
+    text-align: center;
+}
+
+.box{
+    width: 30%;
+    height: 20%;
+    margin: 90px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: left;
+    background-color: rgb(242, 242, 242);
+}
+
+.box h3{
+    height: 20px;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px; 
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(217, 39, 34);
+}
+
+.box span{
+    float: right;
+}
+
+.box i{
+    font-size: 50px;
+    margin: 15px;
+    color: rgba(182, 182, 182, 0.9);
+}
+
+.topnav{
+    width: 100%;
+    height: 7%;
+    background-color: rgb(255, 255, 255);
+}
+
+.topnav li{
+    display: inline-block;
+    padding: 13px;
+    margin-right: 5px;
+    margin-right: 5px;
+}
+
+.topnav a{
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(68, 68, 68);
+}
+
